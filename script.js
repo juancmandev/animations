@@ -9,16 +9,6 @@ button1.addEventListener('click', () => {
   modal.classList.add('visible');
 });
 
-button2.addEventListener('click', () => {
-  modal.classList.remove('hidden');
-  modal.classList.add('visible');
-});
-
-button3.addEventListener('click', () => {
-  modal.classList.remove('hidden');
-  modal.classList.add('visible');
-});
-
 close.addEventListener('click', () => {
   modal.classList.add('hidden');
   modal.classList.remove('visible');
